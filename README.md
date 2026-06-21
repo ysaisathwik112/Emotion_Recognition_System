@@ -204,4 +204,4 @@ MIT License — free for academic and commercial use.
 
 ---
 
-*Built with ❤️ using Streamlit · TensorFlow · PyTorch · Librosa · HuggingFace*
+*Built using Streamlit · TensorFlow · PyTorch · Librosa · HuggingFace*
