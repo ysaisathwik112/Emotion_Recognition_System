@@ -1,0 +1,48 @@
+# ─── Core Web Framework ────────────────────────────────────────────────────
+streamlit>=1.32.0
+
+# ─── Audio Processing ──────────────────────────────────────────────────────
+librosa>=0.10.1
+soundfile>=0.12.1
+pydub>=0.25.1
+scipy>=1.12.0
+numpy>=1.26.0
+
+# ─── Deep Learning ─────────────────────────────────────────────────────────
+# TensorFlow CPU – disabled for Streamlit Cloud (no Python 3.14 wheels).
+# The app gracefully falls back to demo mode when TF is not installed.
+# tensorflow-cpu>=2.15.0
+
+# PyTorch CPU (comment out if not needed to reduce slug size)
+# torch>=2.1.0
+# torchaudio>=2.1.0
+
+# ─── HuggingFace ───────────────────────────────────────────────────────────
+# transformers – disabled for Streamlit Cloud (heavy transitive deps).
+# The app handles its absence with try/except.
+# transformers>=4.38.0
+# faster-whisper>=0.10.0      # optional: optimized Whisper
+# openai-whisper>=1.1.10       # optional: OpenAI Whisper STT
+
+# ─── Machine Learning ──────────────────────────────────────────────────────
+scikit-learn>=1.4.0
+pandas>=2.2.0
+
+# ─── Visualization ─────────────────────────────────────────────────────────
+plotly>=5.20.0
+
+# ─── Explainability ────────────────────────────────────────────────────────
+# shap>=0.44.0                 # optional: SHAP analysis (slow install)
+
+# ─── Reporting ─────────────────────────────────────────────────────────────
+reportlab>=4.1.0
+openpyxl>=3.1.2
+
+# ─── Audio Recorder (optional microphone input) ────────────────────────────
+audio-recorder-streamlit>=0.0.8
+
+# ─── Noise Reduction (optional) ────────────────────────────────────────────
+# noisereduce>=3.0.0
+
+# ─── Utilities ─────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
